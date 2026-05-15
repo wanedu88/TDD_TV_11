@@ -50,10 +50,7 @@ public:
 
   void pressConfirm() { applyBuffer(); }
 
-  void pressOther() {
-    buffer.clear();
-    tuner_.setCH("0");
-  }
+  void pressOther() { buffer.clear(); }
 
   // 즐겨찾기 토글
   void pressFavorite() {

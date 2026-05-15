@@ -50,7 +50,7 @@ TEST_F(ControllerTest, OtherButtonCancelsBuffer) {
   ctrl->pressNumber(6); // 3자리→ 무효화
   ctrl->pressOther();
   // 6은무효화→ 채널변화없음
-  EXPECT_EQ("0", tuner->getCurrentCH());
+  EXPECT_EQ("45", tuner->getCurrentCH());
 }
 // // S1-5: '0','7' → 7번
 TEST_F(ControllerTest, Zero7_SingleDigit7) {
