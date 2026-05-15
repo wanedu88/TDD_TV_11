@@ -38,8 +38,10 @@ CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj: C:/DEV/TDD_TV_11/
   _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
   _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
   _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+  C:/DEV/TDD_TV_11/include/TVChannelController.h \
   C:/DEV/TDD_TV_11/include/TVController.h \
   C:/DEV/TDD_TV_11/include/Tuner.h \
+  C:/DEV/TDD_TV_11/include/fakeTuner.h \
   C:/DEV/TDD_TV_11/include/remoteKey.h \
   C:/mingw64/include/c++/15.2.0/algorithm \
   C:/mingw64/include/c++/15.2.0/any \
@@ -351,6 +353,8 @@ C:/mingw64/include/c++/15.2.0/bits/stl_iterator.h:
 
 C:/mingw64/include/c++/15.2.0/bits/std_mutex.h:
 
+C:/DEV/TDD_TV_11/include/fakeTuner.h:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:
 
 C:/mingw64/include/c++/15.2.0/bits/requires_hosted.h:
@@ -419,6 +423,10 @@ C:/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h:
 
 C:/mingw64/include/c++/15.2.0/bits/ostream.tcc:
 
+C:/mingw64/include/c++/15.2.0/bits/basic_string.tcc:
+
+C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+
 _deps/googletest-src/googlemock/include/gmock/gmock.h:
 
 C:/mingw64/include/c++/15.2.0/mutex:
@@ -436,10 +444,6 @@ C:/mingw64/include/c++/15.2.0/exception:
 _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h:
 
 _deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h:
-
-C:/mingw64/include/c++/15.2.0/bits/stl_relops.h:
-
-C:/DEV/TDD_TV_11/test/TVControllerTest.cpp:
 
 C:/mingw64/x86_64-w64-mingw32/include/stdio.h:
 
@@ -541,13 +545,13 @@ C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
 
 C:/mingw64/include/c++/15.2.0/bits/exception.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/limits.h:
-
-C:/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h:
-
 C:/mingw64/include/c++/15.2.0/bits/specfun.h:
 
 _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/limits.h:
+
+C:/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h:
 
@@ -569,15 +573,11 @@ _deps/googletest-src/googletest/include/gtest/gtest-param-test.h:
 
 _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h:
 
+C:/mingw64/include/c++/15.2.0/bits/parse_numbers.h:
+
 C:/mingw64/include/c++/15.2.0/bit:
 
 C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
-
-C:/mingw64/include/c++/15.2.0/bits/atomic_lockfree_defines.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h:
-
-C:/mingw64/include/c++/15.2.0/bits/parse_numbers.h:
 
 C:/mingw64/include/c++/15.2.0/vector:
 
@@ -601,11 +601,19 @@ C:/mingw64/include/c++/15.2.0/bits/functional_hash.h:
 
 C:/mingw64/include/c++/15.2.0/tr1/bessel_function.tcc:
 
+C:/mingw64/include/c++/15.2.0/bits/atomic_lockfree_defines.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h:
+
 C:/mingw64/include/c++/15.2.0/bits/shared_ptr.h:
 
 C:/mingw64/include/c++/15.2.0/atomic:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
+
+C:/DEV/TDD_TV_11/include/TVChannelController.h:
+
+C:/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h:
 
 C:/mingw64/include/c++/15.2.0/bits/char_traits.h:
 
@@ -643,6 +651,10 @@ C:/mingw64/x86_64-w64-mingw32/include/_timeval.h:
 
 C:/mingw64/include/c++/15.2.0/bits/basic_ios.tcc:
 
+C:/mingw64/x86_64-w64-mingw32/include/direct.h:
+
+C:/DEV/TDD_TV_11/include/remoteKey.h:
+
 _deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h:
 
 C:/mingw64/include/c++/15.2.0/locale:
@@ -651,9 +663,9 @@ C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h:
 
-C:/mingw64/include/c++/15.2.0/bits/basic_string.tcc:
+C:/DEV/TDD_TV_11/test/TVControllerTest.cpp:
 
-C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+C:/mingw64/include/c++/15.2.0/bits/stl_relops.h:
 
 C:/mingw64/include/c++/15.2.0/bits/exception_defines.h:
 
@@ -783,8 +795,6 @@ C:/mingw64/include/c++/15.2.0/system_error:
 
 C:/mingw64/include/c++/15.2.0/variant:
 
-C:/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h:
-
 C:/mingw64/include/c++/15.2.0/pstl/pstl_config.h:
 
 C:/mingw64/include/c++/15.2.0/ratio:
@@ -794,10 +804,6 @@ C:/mingw64/include/c++/15.2.0/cstdint:
 _deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h:
 
 C:/mingw64/include/c++/15.2.0/set:
-
-C:/DEV/TDD_TV_11/include/remoteKey.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/direct.h:
 
 C:/mingw64/include/c++/15.2.0/stdexcept:
 

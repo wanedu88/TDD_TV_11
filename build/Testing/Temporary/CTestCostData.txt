@@ -11,4 +11,5 @@ InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100" 1 0.012
 InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999" 1 0.0103651
 TunerTest.testSeekCh10times 1 0.009554
 TunerTest.testSeekCh10timesAfterSetCH 1 0.009982
+ControllerTest.PressNumber1ThenConfirm 1 0.0113179
 ---
