@@ -7,8 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include(FetchContent)
 FetchContent_Declare(
     googletest
-    GIT_REPOSITORY https://github.com/google/googletest.git
-    GIT_TAG v1.14.0
+    URL https://github.com/google/googletest/archive/refs/tags/v1.16.0.zip
+    DOWNLOAD_EXTRACT_TIMESTAMP TRUE
+    TLS_VERIFY OFF
 )
 FetchContent_MakeAvailable(googletest)
 
@@ -16,11 +17,15 @@ include_directories(include)
 
 enable_testing()
 
+
 add_executable(TunerTest test/TunerTest.cpp)
 target_link_libraries(TunerTest GTest::gtest_main GTest::gmock)
 
 add_executable(TVControllerTest test/TVControllerTest.cpp)
 target_link_libraries(TVControllerTest GTest::gtest_main GTest::gmock)
+
+target_compile_options(TVControllerTest PRIVATE --coverage)
+target_link_options(TVControllerTest PRIVATE --coverage)
 
 include(GoogleTest)
 gtest_discover_tests(TunerTest)
