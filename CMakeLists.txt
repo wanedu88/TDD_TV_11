@@ -17,11 +17,15 @@ include_directories(include)
 
 enable_testing()
 
+
 add_executable(TunerTest test/TunerTest.cpp)
 target_link_libraries(TunerTest GTest::gtest_main GTest::gmock)
 
 add_executable(TVControllerTest test/TVControllerTest.cpp)
 target_link_libraries(TVControllerTest GTest::gtest_main GTest::gmock)
+
+target_compile_options(TVControllerTest PRIVATE --coverage)
+target_link_options(TVControllerTest PRIVATE --coverage)
 
 include(GoogleTest)
 gtest_discover_tests(TunerTest)

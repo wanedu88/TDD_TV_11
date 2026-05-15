@@ -4,91 +4,18 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.19045 - AMD64
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_MAKE_PROGRAM"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "mingw32-make.exe"
-    candidate_directories:
-      - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
-      - "C:/Program Files/Microsoft VS Code/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/LLVM/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files/Cppcheck/"
-      - "C:/Strawberry/c/bin/"
-      - "C:/Strawberry/perl/site/bin/"
-      - "C:/Strawberry/perl/bin/"
-      - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/"
-      - "/REGISTRY-NOTFOUND/bin/"
-      - "c:/MinGW/bin/"
-      - "/MinGW/bin/"
-      - "/REGISTRY-NOTFOUND/MinGW/bin/"
-    searched_directories:
-      - "C:/mingw64/bin/mingw32-make.exe.com"
-    found: "C:/mingw64/bin/mingw32-make.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
-        - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
-        - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
-        - "C:\\Strawberry\\perl\\bin"
-        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
-        - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     mode: "file"
     variable: "src_in"
@@ -104,42 +31,38 @@ events:
     names:
       - "CMakeCXXCompilerId.cpp.in"
     candidate_directories:
-      - "C:/mingw64/share/cmake-4.3/Modules/"
-    found: "C:/mingw64/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -154,13 +77,13 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/DEV/TDD_TV_11/build/CMakeFiles/4.3.1/CompilerIdCXX/a.exe
+        C:/DEV/TDD_TV_11/build/CMakeFiles/4.3.2/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_AR"
@@ -177,7 +100,6 @@ events:
       - "ar"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -200,37 +122,33 @@ events:
     found: "C:/mingw64/bin/ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
@@ -247,7 +165,6 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -270,37 +187,33 @@ events:
     found: "C:/mingw64/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
@@ -317,7 +230,6 @@ events:
       - "strip"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -340,37 +252,33 @@ events:
     found: "C:/mingw64/bin/strip.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
@@ -387,7 +295,6 @@ events:
       - "ld"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -410,37 +317,33 @@ events:
     found: "C:/mingw64/bin/ld.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_NM"
@@ -457,7 +360,6 @@ events:
       - "nm"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -480,37 +382,33 @@ events:
     found: "C:/mingw64/bin/nm.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
@@ -527,7 +425,6 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -550,37 +447,33 @@ events:
     found: "C:/mingw64/bin/objdump.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
@@ -597,7 +490,6 @@ events:
       - "objcopy"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -620,37 +512,33 @@ events:
     found: "C:/mingw64/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
@@ -667,7 +555,6 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -690,37 +577,33 @@ events:
     found: "C:/mingw64/bin/readelf.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
@@ -737,7 +620,6 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -760,37 +642,33 @@ events:
     found: "C:/mingw64/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
@@ -807,7 +685,6 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -830,37 +707,33 @@ events:
     found: "C:/mingw64/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
@@ -877,7 +750,6 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -899,9 +771,6 @@ events:
       - "C:/mingw64/bin/tapi.com"
       - "C:/mingw64/bin/tapi.exe"
       - "C:/mingw64/bin/tapi"
-      - "C:/usr/bin/tapi.com"
-      - "C:/usr/bin/tapi.exe"
-      - "C:/usr/bin/tapi"
       - "C:/Program Files/Microsoft VS Code/tapi.com"
       - "C:/Program Files/Microsoft VS Code/tapi.exe"
       - "C:/Program Files/Microsoft VS Code/tapi"
@@ -956,37 +825,33 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
@@ -1006,7 +871,6 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1028,9 +892,6 @@ events:
       - "C:/mingw64/bin/gcc-ar-15.2.com"
       - "C:/mingw64/bin/gcc-ar-15.2.exe"
       - "C:/mingw64/bin/gcc-ar-15.2"
-      - "C:/usr/bin/gcc-ar-15.2.com"
-      - "C:/usr/bin/gcc-ar-15.2.exe"
-      - "C:/usr/bin/gcc-ar-15.2"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15.2.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15.2.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15.2"
@@ -1085,9 +946,6 @@ events:
       - "C:/mingw64/bin/gcc-ar-15.com"
       - "C:/mingw64/bin/gcc-ar-15.exe"
       - "C:/mingw64/bin/gcc-ar-15"
-      - "C:/usr/bin/gcc-ar-15.com"
-      - "C:/usr/bin/gcc-ar-15.exe"
-      - "C:/usr/bin/gcc-ar-15"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15"
@@ -1142,9 +1000,6 @@ events:
       - "C:/mingw64/bin/gcc-ar15.com"
       - "C:/mingw64/bin/gcc-ar15.exe"
       - "C:/mingw64/bin/gcc-ar15"
-      - "C:/usr/bin/gcc-ar15.com"
-      - "C:/usr/bin/gcc-ar15.exe"
-      - "C:/usr/bin/gcc-ar15"
       - "C:/Program Files/Microsoft VS Code/gcc-ar15.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ar15.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ar15"
@@ -1200,37 +1055,33 @@ events:
     found: "C:/mingw64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
@@ -1250,7 +1101,6 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1272,9 +1122,6 @@ events:
       - "C:/mingw64/bin/gcc-ranlib-15.2.com"
       - "C:/mingw64/bin/gcc-ranlib-15.2.exe"
       - "C:/mingw64/bin/gcc-ranlib-15.2"
-      - "C:/usr/bin/gcc-ranlib-15.2.com"
-      - "C:/usr/bin/gcc-ranlib-15.2.exe"
-      - "C:/usr/bin/gcc-ranlib-15.2"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15.2.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15.2.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15.2"
@@ -1329,9 +1176,6 @@ events:
       - "C:/mingw64/bin/gcc-ranlib-15.com"
       - "C:/mingw64/bin/gcc-ranlib-15.exe"
       - "C:/mingw64/bin/gcc-ranlib-15"
-      - "C:/usr/bin/gcc-ranlib-15.com"
-      - "C:/usr/bin/gcc-ranlib-15.exe"
-      - "C:/usr/bin/gcc-ranlib-15"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15"
@@ -1386,9 +1230,6 @@ events:
       - "C:/mingw64/bin/gcc-ranlib15.com"
       - "C:/mingw64/bin/gcc-ranlib15.exe"
       - "C:/mingw64/bin/gcc-ranlib15"
-      - "C:/usr/bin/gcc-ranlib15.com"
-      - "C:/usr/bin/gcc-ranlib15.exe"
-      - "C:/usr/bin/gcc-ranlib15"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib15.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib15.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib15"
@@ -1444,39 +1285,35 @@ events:
     found: "C:/mingw64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
-      - "C:/mingw64/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
@@ -1493,8 +1330,6 @@ events:
       - "windres"
       - "windres"
     candidate_directories:
-      - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1507,75 +1342,104 @@ events:
       - "C:/Program Files/LLVM/bin/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/mingw64/bin/"
       - "C:/Program Files/Cppcheck/"
       - "C:/Strawberry/c/bin/"
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/"
-      - "/mingw64/bin/"
-      - "/mingw64/sbin/"
-      - "/mingw64/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/bin/"
       - "C:/Program Files (x86)/sbin/"
       - "C:/Program Files (x86)/"
-      - "C:/mingw64/bin/"
-      - "C:/mingw64/sbin/"
-      - "C:/mingw64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
       - "C:/Program Files (x86)/bestreviewer/bin/"
       - "C:/Program Files (x86)/bestreviewer/sbin/"
       - "C:/Program Files (x86)/bestreviewer/"
     searched_directories:
+      - "C:/Program Files/Microsoft VS Code/windres.com"
+      - "C:/Program Files/Microsoft VS Code/windres.exe"
+      - "C:/Program Files/Microsoft VS Code/windres"
+      - "C:/Windows/System32/windres.com"
+      - "C:/Windows/System32/windres.exe"
+      - "C:/Windows/System32/windres"
+      - "C:/Windows/windres.com"
+      - "C:/Windows/windres.exe"
+      - "C:/Windows/windres"
+      - "C:/Windows/System32/wbem/windres.com"
+      - "C:/Windows/System32/wbem/windres.exe"
+      - "C:/Windows/System32/wbem/windres"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
+      - "C:/Windows/System32/OpenSSH/windres.com"
+      - "C:/Windows/System32/OpenSSH/windres.exe"
+      - "C:/Windows/System32/OpenSSH/windres"
+      - "C:/Program Files/Microsoft VS Code/bin/windres.com"
+      - "C:/Program Files/Microsoft VS Code/bin/windres.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/windres"
+      - "C:/Program Files/CMake/bin/windres.com"
+      - "C:/Program Files/CMake/bin/windres.exe"
+      - "C:/Program Files/CMake/bin/windres"
+      - "C:/Program Files/Git/cmd/windres.com"
+      - "C:/Program Files/Git/cmd/windres.exe"
+      - "C:/Program Files/Git/cmd/windres"
+      - "C:/Program Files/LLVM/bin/windres.com"
+      - "C:/Program Files/LLVM/bin/windres.exe"
+      - "C:/Program Files/LLVM/bin/windres"
+      - "C:/ProgramData/chocolatey/bin/windres.com"
+      - "C:/ProgramData/chocolatey/bin/windres.exe"
+      - "C:/ProgramData/chocolatey/bin/windres"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/windres.com"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/windres.exe"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/windres"
       - "C:/mingw64/bin/windres.com"
     found: "C:/mingw64/bin/windres.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bestreviewer"
       CMAKE_SYSTEM_PREFIX_PATH:
-        - "/mingw64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/mingw64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/bestreviewer"
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-9lxbq6"
-      binary: "C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-9lxbq6"
+      source: "C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-lku6tt"
+      binary: "C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-lku6tt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1586,13 +1450,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-9lxbq6'
+        Change Dir: 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-lku6tt'
         
-        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2d25a/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2d25a.dir\\build.make CMakeFiles/cmTC_2d25a.dir/build
-        mingw32-make[1]: Entering directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-9lxbq6'
-        Building CXX object CMakeFiles/cmTC_2d25a.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_93104/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_93104.dir\\build.make CMakeFiles/cmTC_93104.dir/build
+        mingw32-make[1]: Entering directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-lku6tt'
+        Building CXX object CMakeFiles/cmTC_93104.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\g++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -1601,8 +1465,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2d25a.dir\\'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_2d25a.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\ccL7dzmc.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_93104.dir\\'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_93104.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\cc8UWR5n.s
         GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version isl-0.27-GMP
         
@@ -1627,14 +1491,14 @@ events:
          C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 319b0e6276b9caf8af1dcdd751e03d94
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2d25a.dir\\'
-         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\user\\AppData\\Local\\Temp\\ccL7dzmc.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_93104.dir\\'
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\user\\AppData\\Local\\Temp\\cc8UWR5n.s
         GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_2d25a.exe
-        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2d25a.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_93104.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_93104.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -1646,23 +1510,23 @@ events:
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) 
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d25a.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d25a.'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc86scdk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2d25a.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2d25a.dir/objects.a --no-whole-archive --out-implib libcmTC_2d25a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93104.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_93104.'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc8Kwbpz.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_93104.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_93104.dir/objects.a --no-whole-archive --out-implib libcmTC_93104.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc86scdk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2d25a.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2d25a.dir/objects.a --no-whole-archive --out-implib libcmTC_2d25a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc8Kwbpz.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_93104.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_93104.dir/objects.a --no-whole-archive --out-implib libcmTC_93104.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d25a.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d25a.'
-        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_2d25a.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_2d25a.dir/objects.a @CMakeFiles\\cmTC_2d25a.dir\\objects1.rsp
-        C:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_2d25a.dir/objects.a -Wl,--no-whole-archive -o cmTC_2d25a.exe -Wl,--out-implib,libcmTC_2d25a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-9lxbq6'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93104.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_93104.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_93104.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_93104.dir/objects.a @CMakeFiles\\cmTC_93104.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_93104.dir/objects.a -Wl,--no-whole-archive -o cmTC_93104.exe -Wl,--out-implib,libcmTC_93104.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-lku6tt'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
@@ -1689,20 +1553,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-9lxbq6']
+        ignore line: [Change Dir: 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-lku6tt']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2d25a/fast]
-        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2d25a.dir\\build.make CMakeFiles/cmTC_2d25a.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-9lxbq6']
-        ignore line: [Building CXX object CMakeFiles/cmTC_2d25a.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_93104/fast]
+        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_93104.dir\\build.make CMakeFiles/cmTC_93104.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-lku6tt']
+        ignore line: [Building CXX object CMakeFiles/cmTC_93104.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\g++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -1711,8 +1575,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r7) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2d25a.dir\\']
-        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_2d25a.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\ccL7dzmc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_93104.dir\\']
+        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_93104.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\cc8UWR5n.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r7) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version isl-0.27-GMP]
         ignore line: []
@@ -1737,8 +1601,8 @@ events:
         ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 319b0e6276b9caf8af1dcdd751e03d94]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2d25a.dir\\']
-        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\user\\AppData\\Local\\Temp\\ccL7dzmc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_93104.dir\\']
+        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\user\\AppData\\Local\\Temp\\cc8UWR5n.s]
         ignore line: [GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r7) 2.46.0.20260210]
         ignore line: [COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/mingw64/bin/../libexec/gcc/]
@@ -1749,9 +1613,9 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2d25a.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_2d25a.exe]
-        ignore line: [C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2d25a.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_93104.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_93104.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_93104.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -1770,13 +1634,13 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d25a.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2d25a.']
-        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc86scdk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2d25a.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2d25a.dir/objects.a --no-whole-archive --out-implib libcmTC_2d25a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93104.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_93104.']
+        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc8Kwbpz.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_93104.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_93104.dir/objects.a --no-whole-archive --out-implib libcmTC_93104.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc86scdk.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc8Kwbpz.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -1798,7 +1662,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_2d25a.exe] ==> ignore
+          arg [cmTC_93104.exe] ==> ignore
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -1809,10 +1673,10 @@ events:
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_2d25a.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_93104.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_2d25a.dll.a] ==> ignore
+          arg [libcmTC_93104.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1857,9 +1721,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "-v"
@@ -1867,9 +1731,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "-V"
@@ -1877,9 +1741,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "--version"
@@ -1887,11 +1751,11 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     mode: "file"
     variable: "src_in"
@@ -1907,49 +1771,44 @@ events:
     names:
       - "CMakeCCompilerId.c.in"
     candidate_directories:
-      - "C:/mingw64/share/cmake-4.3/Modules/"
-    found: "C:/mingw64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bestreviewer"
       CMAKE_SYSTEM_PREFIX_PATH:
-        - "/mingw64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/mingw64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/bestreviewer"
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -1964,13 +1823,13 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        C:/DEV/TDD_TV_11/build/CMakeFiles/4.3.1/CompilerIdC/a.exe
+        C:/DEV/TDD_TV_11/build/CMakeFiles/4.3.2/CompilerIdC/a.exe
       
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
       - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_AR"
@@ -1990,7 +1849,6 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -2008,18 +1866,15 @@ events:
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/"
-      - "/mingw64/bin/"
-      - "/mingw64/sbin/"
-      - "/mingw64/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/bin/"
       - "C:/Program Files (x86)/sbin/"
       - "C:/Program Files (x86)/"
-      - "C:/mingw64/bin/"
-      - "C:/mingw64/sbin/"
-      - "C:/mingw64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
       - "C:/Program Files (x86)/bestreviewer/bin/"
       - "C:/Program Files (x86)/bestreviewer/sbin/"
       - "C:/Program Files (x86)/bestreviewer/"
@@ -2027,9 +1882,6 @@ events:
       - "C:/mingw64/bin/gcc-ar-15.2.com"
       - "C:/mingw64/bin/gcc-ar-15.2.exe"
       - "C:/mingw64/bin/gcc-ar-15.2"
-      - "C:/usr/bin/gcc-ar-15.2.com"
-      - "C:/usr/bin/gcc-ar-15.2.exe"
-      - "C:/usr/bin/gcc-ar-15.2"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15.2.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15.2.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15.2"
@@ -2081,15 +1933,6 @@ events:
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ar-15.2.com"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ar-15.2.exe"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ar-15.2"
-      - "/mingw64/bin/gcc-ar-15.2.com"
-      - "/mingw64/bin/gcc-ar-15.2.exe"
-      - "/mingw64/bin/gcc-ar-15.2"
-      - "/mingw64/sbin/gcc-ar-15.2.com"
-      - "/mingw64/sbin/gcc-ar-15.2.exe"
-      - "/mingw64/sbin/gcc-ar-15.2"
-      - "/mingw64/gcc-ar-15.2.com"
-      - "/mingw64/gcc-ar-15.2.exe"
-      - "/mingw64/gcc-ar-15.2"
       - "C:/Program Files/bin/gcc-ar-15.2.com"
       - "C:/Program Files/bin/gcc-ar-15.2.exe"
       - "C:/Program Files/bin/gcc-ar-15.2"
@@ -2108,15 +1951,15 @@ events:
       - "C:/Program Files (x86)/gcc-ar-15.2.com"
       - "C:/Program Files (x86)/gcc-ar-15.2.exe"
       - "C:/Program Files (x86)/gcc-ar-15.2"
-      - "C:/mingw64/bin/gcc-ar-15.2.com"
-      - "C:/mingw64/bin/gcc-ar-15.2.exe"
-      - "C:/mingw64/bin/gcc-ar-15.2"
-      - "C:/mingw64/sbin/gcc-ar-15.2.com"
-      - "C:/mingw64/sbin/gcc-ar-15.2.exe"
-      - "C:/mingw64/sbin/gcc-ar-15.2"
-      - "C:/mingw64/gcc-ar-15.2.com"
-      - "C:/mingw64/gcc-ar-15.2.exe"
-      - "C:/mingw64/gcc-ar-15.2"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2"
+      - "C:/Program Files/CMake/sbin/gcc-ar-15.2.com"
+      - "C:/Program Files/CMake/sbin/gcc-ar-15.2.exe"
+      - "C:/Program Files/CMake/sbin/gcc-ar-15.2"
+      - "C:/Program Files/CMake/gcc-ar-15.2.com"
+      - "C:/Program Files/CMake/gcc-ar-15.2.exe"
+      - "C:/Program Files/CMake/gcc-ar-15.2"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ar-15.2.com"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ar-15.2.exe"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ar-15.2"
@@ -2129,9 +1972,6 @@ events:
       - "C:/mingw64/bin/gcc-ar-15.com"
       - "C:/mingw64/bin/gcc-ar-15.exe"
       - "C:/mingw64/bin/gcc-ar-15"
-      - "C:/usr/bin/gcc-ar-15.com"
-      - "C:/usr/bin/gcc-ar-15.exe"
-      - "C:/usr/bin/gcc-ar-15"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ar-15"
@@ -2183,15 +2023,6 @@ events:
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ar-15.com"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ar-15.exe"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ar-15"
-      - "/mingw64/bin/gcc-ar-15.com"
-      - "/mingw64/bin/gcc-ar-15.exe"
-      - "/mingw64/bin/gcc-ar-15"
-      - "/mingw64/sbin/gcc-ar-15.com"
-      - "/mingw64/sbin/gcc-ar-15.exe"
-      - "/mingw64/sbin/gcc-ar-15"
-      - "/mingw64/gcc-ar-15.com"
-      - "/mingw64/gcc-ar-15.exe"
-      - "/mingw64/gcc-ar-15"
       - "C:/Program Files/bin/gcc-ar-15.com"
       - "C:/Program Files/bin/gcc-ar-15.exe"
       - "C:/Program Files/bin/gcc-ar-15"
@@ -2210,15 +2041,15 @@ events:
       - "C:/Program Files (x86)/gcc-ar-15.com"
       - "C:/Program Files (x86)/gcc-ar-15.exe"
       - "C:/Program Files (x86)/gcc-ar-15"
-      - "C:/mingw64/bin/gcc-ar-15.com"
-      - "C:/mingw64/bin/gcc-ar-15.exe"
-      - "C:/mingw64/bin/gcc-ar-15"
-      - "C:/mingw64/sbin/gcc-ar-15.com"
-      - "C:/mingw64/sbin/gcc-ar-15.exe"
-      - "C:/mingw64/sbin/gcc-ar-15"
-      - "C:/mingw64/gcc-ar-15.com"
-      - "C:/mingw64/gcc-ar-15.exe"
-      - "C:/mingw64/gcc-ar-15"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15"
+      - "C:/Program Files/CMake/sbin/gcc-ar-15.com"
+      - "C:/Program Files/CMake/sbin/gcc-ar-15.exe"
+      - "C:/Program Files/CMake/sbin/gcc-ar-15"
+      - "C:/Program Files/CMake/gcc-ar-15.com"
+      - "C:/Program Files/CMake/gcc-ar-15.exe"
+      - "C:/Program Files/CMake/gcc-ar-15"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ar-15.com"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ar-15.exe"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ar-15"
@@ -2231,9 +2062,6 @@ events:
       - "C:/mingw64/bin/gcc-ar15.com"
       - "C:/mingw64/bin/gcc-ar15.exe"
       - "C:/mingw64/bin/gcc-ar15"
-      - "C:/usr/bin/gcc-ar15.com"
-      - "C:/usr/bin/gcc-ar15.exe"
-      - "C:/usr/bin/gcc-ar15"
       - "C:/Program Files/Microsoft VS Code/gcc-ar15.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ar15.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ar15"
@@ -2285,15 +2113,6 @@ events:
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ar15.com"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ar15.exe"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ar15"
-      - "/mingw64/bin/gcc-ar15.com"
-      - "/mingw64/bin/gcc-ar15.exe"
-      - "/mingw64/bin/gcc-ar15"
-      - "/mingw64/sbin/gcc-ar15.com"
-      - "/mingw64/sbin/gcc-ar15.exe"
-      - "/mingw64/sbin/gcc-ar15"
-      - "/mingw64/gcc-ar15.com"
-      - "/mingw64/gcc-ar15.exe"
-      - "/mingw64/gcc-ar15"
       - "C:/Program Files/bin/gcc-ar15.com"
       - "C:/Program Files/bin/gcc-ar15.exe"
       - "C:/Program Files/bin/gcc-ar15"
@@ -2312,15 +2131,15 @@ events:
       - "C:/Program Files (x86)/gcc-ar15.com"
       - "C:/Program Files (x86)/gcc-ar15.exe"
       - "C:/Program Files (x86)/gcc-ar15"
-      - "C:/mingw64/bin/gcc-ar15.com"
-      - "C:/mingw64/bin/gcc-ar15.exe"
-      - "C:/mingw64/bin/gcc-ar15"
-      - "C:/mingw64/sbin/gcc-ar15.com"
-      - "C:/mingw64/sbin/gcc-ar15.exe"
-      - "C:/mingw64/sbin/gcc-ar15"
-      - "C:/mingw64/gcc-ar15.com"
-      - "C:/mingw64/gcc-ar15.exe"
-      - "C:/mingw64/gcc-ar15"
+      - "C:/Program Files/CMake/bin/gcc-ar15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar15"
+      - "C:/Program Files/CMake/sbin/gcc-ar15.com"
+      - "C:/Program Files/CMake/sbin/gcc-ar15.exe"
+      - "C:/Program Files/CMake/sbin/gcc-ar15"
+      - "C:/Program Files/CMake/gcc-ar15.com"
+      - "C:/Program Files/CMake/gcc-ar15.exe"
+      - "C:/Program Files/CMake/gcc-ar15"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ar15.com"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ar15.exe"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ar15"
@@ -2334,44 +2153,39 @@ events:
     found: "C:/mingw64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bestreviewer"
       CMAKE_SYSTEM_PREFIX_PATH:
-        - "/mingw64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/mingw64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/bestreviewer"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
       - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_RANLIB"
@@ -2391,7 +2205,6 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/mingw64/bin/"
-      - "C:/usr/bin/"
       - "C:/Program Files/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -2409,18 +2222,15 @@ events:
       - "C:/Strawberry/perl/site/bin/"
       - "C:/Strawberry/perl/bin/"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/"
-      - "/mingw64/bin/"
-      - "/mingw64/sbin/"
-      - "/mingw64/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/bin/"
       - "C:/Program Files (x86)/sbin/"
       - "C:/Program Files (x86)/"
-      - "C:/mingw64/bin/"
-      - "C:/mingw64/sbin/"
-      - "C:/mingw64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
       - "C:/Program Files (x86)/bestreviewer/bin/"
       - "C:/Program Files (x86)/bestreviewer/sbin/"
       - "C:/Program Files (x86)/bestreviewer/"
@@ -2428,9 +2238,6 @@ events:
       - "C:/mingw64/bin/gcc-ranlib-15.2.com"
       - "C:/mingw64/bin/gcc-ranlib-15.2.exe"
       - "C:/mingw64/bin/gcc-ranlib-15.2"
-      - "C:/usr/bin/gcc-ranlib-15.2.com"
-      - "C:/usr/bin/gcc-ranlib-15.2.exe"
-      - "C:/usr/bin/gcc-ranlib-15.2"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15.2.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15.2.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15.2"
@@ -2482,15 +2289,6 @@ events:
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ranlib-15.2.com"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ranlib-15.2.exe"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ranlib-15.2"
-      - "/mingw64/bin/gcc-ranlib-15.2.com"
-      - "/mingw64/bin/gcc-ranlib-15.2.exe"
-      - "/mingw64/bin/gcc-ranlib-15.2"
-      - "/mingw64/sbin/gcc-ranlib-15.2.com"
-      - "/mingw64/sbin/gcc-ranlib-15.2.exe"
-      - "/mingw64/sbin/gcc-ranlib-15.2"
-      - "/mingw64/gcc-ranlib-15.2.com"
-      - "/mingw64/gcc-ranlib-15.2.exe"
-      - "/mingw64/gcc-ranlib-15.2"
       - "C:/Program Files/bin/gcc-ranlib-15.2.com"
       - "C:/Program Files/bin/gcc-ranlib-15.2.exe"
       - "C:/Program Files/bin/gcc-ranlib-15.2"
@@ -2509,15 +2307,15 @@ events:
       - "C:/Program Files (x86)/gcc-ranlib-15.2.com"
       - "C:/Program Files (x86)/gcc-ranlib-15.2.exe"
       - "C:/Program Files (x86)/gcc-ranlib-15.2"
-      - "C:/mingw64/bin/gcc-ranlib-15.2.com"
-      - "C:/mingw64/bin/gcc-ranlib-15.2.exe"
-      - "C:/mingw64/bin/gcc-ranlib-15.2"
-      - "C:/mingw64/sbin/gcc-ranlib-15.2.com"
-      - "C:/mingw64/sbin/gcc-ranlib-15.2.exe"
-      - "C:/mingw64/sbin/gcc-ranlib-15.2"
-      - "C:/mingw64/gcc-ranlib-15.2.com"
-      - "C:/mingw64/gcc-ranlib-15.2.exe"
-      - "C:/mingw64/gcc-ranlib-15.2"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/CMake/sbin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/CMake/sbin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/CMake/sbin/gcc-ranlib-15.2"
+      - "C:/Program Files/CMake/gcc-ranlib-15.2.com"
+      - "C:/Program Files/CMake/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/CMake/gcc-ranlib-15.2"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ranlib-15.2.com"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ranlib-15.2.exe"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ranlib-15.2"
@@ -2530,9 +2328,6 @@ events:
       - "C:/mingw64/bin/gcc-ranlib-15.com"
       - "C:/mingw64/bin/gcc-ranlib-15.exe"
       - "C:/mingw64/bin/gcc-ranlib-15"
-      - "C:/usr/bin/gcc-ranlib-15.com"
-      - "C:/usr/bin/gcc-ranlib-15.exe"
-      - "C:/usr/bin/gcc-ranlib-15"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib-15"
@@ -2584,15 +2379,6 @@ events:
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ranlib-15.com"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ranlib-15.exe"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ranlib-15"
-      - "/mingw64/bin/gcc-ranlib-15.com"
-      - "/mingw64/bin/gcc-ranlib-15.exe"
-      - "/mingw64/bin/gcc-ranlib-15"
-      - "/mingw64/sbin/gcc-ranlib-15.com"
-      - "/mingw64/sbin/gcc-ranlib-15.exe"
-      - "/mingw64/sbin/gcc-ranlib-15"
-      - "/mingw64/gcc-ranlib-15.com"
-      - "/mingw64/gcc-ranlib-15.exe"
-      - "/mingw64/gcc-ranlib-15"
       - "C:/Program Files/bin/gcc-ranlib-15.com"
       - "C:/Program Files/bin/gcc-ranlib-15.exe"
       - "C:/Program Files/bin/gcc-ranlib-15"
@@ -2611,15 +2397,15 @@ events:
       - "C:/Program Files (x86)/gcc-ranlib-15.com"
       - "C:/Program Files (x86)/gcc-ranlib-15.exe"
       - "C:/Program Files (x86)/gcc-ranlib-15"
-      - "C:/mingw64/bin/gcc-ranlib-15.com"
-      - "C:/mingw64/bin/gcc-ranlib-15.exe"
-      - "C:/mingw64/bin/gcc-ranlib-15"
-      - "C:/mingw64/sbin/gcc-ranlib-15.com"
-      - "C:/mingw64/sbin/gcc-ranlib-15.exe"
-      - "C:/mingw64/sbin/gcc-ranlib-15"
-      - "C:/mingw64/gcc-ranlib-15.com"
-      - "C:/mingw64/gcc-ranlib-15.exe"
-      - "C:/mingw64/gcc-ranlib-15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15"
+      - "C:/Program Files/CMake/sbin/gcc-ranlib-15.com"
+      - "C:/Program Files/CMake/sbin/gcc-ranlib-15.exe"
+      - "C:/Program Files/CMake/sbin/gcc-ranlib-15"
+      - "C:/Program Files/CMake/gcc-ranlib-15.com"
+      - "C:/Program Files/CMake/gcc-ranlib-15.exe"
+      - "C:/Program Files/CMake/gcc-ranlib-15"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ranlib-15.com"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ranlib-15.exe"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ranlib-15"
@@ -2632,9 +2418,6 @@ events:
       - "C:/mingw64/bin/gcc-ranlib15.com"
       - "C:/mingw64/bin/gcc-ranlib15.exe"
       - "C:/mingw64/bin/gcc-ranlib15"
-      - "C:/usr/bin/gcc-ranlib15.com"
-      - "C:/usr/bin/gcc-ranlib15.exe"
-      - "C:/usr/bin/gcc-ranlib15"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib15.com"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib15.exe"
       - "C:/Program Files/Microsoft VS Code/gcc-ranlib15"
@@ -2686,15 +2469,6 @@ events:
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ranlib15.com"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ranlib15.exe"
       - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/gcc-ranlib15"
-      - "/mingw64/bin/gcc-ranlib15.com"
-      - "/mingw64/bin/gcc-ranlib15.exe"
-      - "/mingw64/bin/gcc-ranlib15"
-      - "/mingw64/sbin/gcc-ranlib15.com"
-      - "/mingw64/sbin/gcc-ranlib15.exe"
-      - "/mingw64/sbin/gcc-ranlib15"
-      - "/mingw64/gcc-ranlib15.com"
-      - "/mingw64/gcc-ranlib15.exe"
-      - "/mingw64/gcc-ranlib15"
       - "C:/Program Files/bin/gcc-ranlib15.com"
       - "C:/Program Files/bin/gcc-ranlib15.exe"
       - "C:/Program Files/bin/gcc-ranlib15"
@@ -2713,15 +2487,15 @@ events:
       - "C:/Program Files (x86)/gcc-ranlib15.com"
       - "C:/Program Files (x86)/gcc-ranlib15.exe"
       - "C:/Program Files (x86)/gcc-ranlib15"
-      - "C:/mingw64/bin/gcc-ranlib15.com"
-      - "C:/mingw64/bin/gcc-ranlib15.exe"
-      - "C:/mingw64/bin/gcc-ranlib15"
-      - "C:/mingw64/sbin/gcc-ranlib15.com"
-      - "C:/mingw64/sbin/gcc-ranlib15.exe"
-      - "C:/mingw64/sbin/gcc-ranlib15"
-      - "C:/mingw64/gcc-ranlib15.com"
-      - "C:/mingw64/gcc-ranlib15.exe"
-      - "C:/mingw64/gcc-ranlib15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15"
+      - "C:/Program Files/CMake/sbin/gcc-ranlib15.com"
+      - "C:/Program Files/CMake/sbin/gcc-ranlib15.exe"
+      - "C:/Program Files/CMake/sbin/gcc-ranlib15"
+      - "C:/Program Files/CMake/gcc-ranlib15.com"
+      - "C:/Program Files/CMake/gcc-ranlib15.exe"
+      - "C:/Program Files/CMake/gcc-ranlib15"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ranlib15.com"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ranlib15.exe"
       - "C:/Program Files (x86)/bestreviewer/bin/gcc-ranlib15"
@@ -2735,50 +2509,45 @@ events:
     found: "C:/mingw64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\mingw64\\bin"
-        - "C:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
+        - "C:\\Program Files\\Microsoft VS Code"
         - "C:\\WINDOWS\\system32"
-        - "C:/WINDOWS"
+        - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:/Users/user/AppData/Local/Microsoft/WindowsApps"
-        - "C:/mingw64/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\mingw64\\bin"
         - "C:\\Program Files\\Cppcheck"
-        - "C:/ProgramData/chocolatey/bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
+        - "C:\\Strawberry\\perl\\site\\bin"
         - "C:\\Strawberry\\perl\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\mingw64\\bin"
-        - "C:/Program Files/Cppcheck"
+        - "C:\\Program Files\\Cppcheck"
         - "C:\\ProgramData\\chocolatey\\lib\\lcov\\tools\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bestreviewer"
       CMAKE_SYSTEM_PREFIX_PATH:
-        - "/mingw64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/mingw64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/bestreviewer"
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-sva3w8"
-      binary: "C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-sva3w8"
+      source: "C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-rnl757"
+      binary: "C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-rnl757"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2788,13 +2557,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-sva3w8'
+        Change Dir: 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-rnl757'
         
-        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_95565/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_95565.dir\\build.make CMakeFiles/cmTC_95565.dir/build
-        mingw32-make[1]: Entering directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-sva3w8'
-        Building C object CMakeFiles/cmTC_95565.dir/CMakeCCompilerABI.c.obj
-        C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_90552/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_90552.dir\\build.make CMakeFiles/cmTC_90552.dir/build
+        mingw32-make[1]: Entering directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-rnl757'
+        Building C object CMakeFiles/cmTC_90552.dir/CMakeCCompilerABI.c.obj
+        C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -2803,8 +2572,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_95565.dir\\'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_95565.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\cc2ZmM4r.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90552.dir\\'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_90552.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\ccLn449s.s
         GNU C23 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version isl-0.27-GMP
         
@@ -2823,14 +2592,14 @@ events:
          C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: ad450cfe7aa02cbc3fb83e970d6aeb5d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_95565.dir\\'
-         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.obj C:\\Users\\user\\AppData\\Local\\Temp\\cc2ZmM4r.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90552.dir\\'
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.obj C:\\Users\\user\\AppData\\Local\\Temp\\ccLn449s.s
         GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_95565.exe
-        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_95565.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_90552.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_90552.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -2842,23 +2611,23 @@ events:
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) 
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95565.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_95565.'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc6TXxmG.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_95565.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_95565.dir/objects.a --no-whole-archive --out-implib libcmTC_95565.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_90552.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_90552.'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\ccpuQ4fF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_90552.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_90552.dir/objects.a --no-whole-archive --out-implib libcmTC_90552.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc6TXxmG.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_95565.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_95565.dir/objects.a --no-whole-archive --out-implib libcmTC_95565.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\ccpuQ4fF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_90552.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_90552.dir/objects.a --no-whole-archive --out-implib libcmTC_90552.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95565.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_95565.'
-        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_95565.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_95565.dir/objects.a @CMakeFiles\\cmTC_95565.dir\\objects1.rsp
-        C:\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_95565.dir/objects.a -Wl,--no-whole-archive -o cmTC_95565.exe -Wl,--out-implib,libcmTC_95565.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-sva3w8'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_90552.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_90552.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_90552.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_90552.dir/objects.a @CMakeFiles\\cmTC_90552.dir\\objects1.rsp
+        C:\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_90552.dir/objects.a -Wl,--no-whole-archive -o cmTC_90552.exe -Wl,--out-implib,libcmTC_90552.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-rnl757'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -2879,20 +2648,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-sva3w8']
+        ignore line: [Change Dir: 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-rnl757']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_95565/fast]
-        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_95565.dir\\build.make CMakeFiles/cmTC_95565.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-sva3w8']
-        ignore line: [Building C object CMakeFiles/cmTC_95565.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_90552/fast]
+        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_90552.dir\\build.make CMakeFiles/cmTC_90552.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/DEV/TDD_TV_11/build/CMakeFiles/CMakeScratch/TryCompile-rnl757']
+        ignore line: [Building C object CMakeFiles/cmTC_90552.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -2901,8 +2670,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r7) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_95565.dir\\']
-        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_95565.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\cc2ZmM4r.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90552.dir\\']
+        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_90552.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\user\\AppData\\Local\\Temp\\ccLn449s.s]
         ignore line: [GNU C23 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r7) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version isl-0.27-GMP]
         ignore line: []
@@ -2921,8 +2690,8 @@ events:
         ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: ad450cfe7aa02cbc3fb83e970d6aeb5d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_95565.dir\\']
-        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.obj C:\\Users\\user\\AppData\\Local\\Temp\\cc2ZmM4r.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90552.dir\\']
+        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.obj C:\\Users\\user\\AppData\\Local\\Temp\\ccLn449s.s]
         ignore line: [GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r7) 2.46.0.20260210]
         ignore line: [COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/mingw64/bin/../libexec/gcc/]
@@ -2933,9 +2702,9 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_95565.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_95565.exe]
-        ignore line: [C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_95565.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_90552.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_90552.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_90552.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -2954,13 +2723,13 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95565.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_95565.']
-        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc6TXxmG.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_95565.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_95565.dir/objects.a --no-whole-archive --out-implib libcmTC_95565.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_90552.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_90552.']
+        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\ccpuQ4fF.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_90552.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_90552.dir/objects.a --no-whole-archive --out-implib libcmTC_90552.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc6TXxmG.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\ccpuQ4fF.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -2982,7 +2751,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_95565.exe] ==> ignore
+          arg [cmTC_90552.exe] ==> ignore
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -2993,10 +2762,10 @@ events:
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_95565.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_90552.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_95565.dll.a] ==> ignore
+          arg [libcmTC_90552.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3042,9 +2811,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     message: |
       Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "-v"
@@ -3052,9 +2821,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     message: |
       Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "-V"
@@ -3062,9 +2831,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/mingw64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     message: |
       Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "--version"
