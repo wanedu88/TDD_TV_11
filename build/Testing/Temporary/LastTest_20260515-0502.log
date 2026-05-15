@@ -1,0 +1,30 @@
+Start testing: May 15 14:03 대한민국 표준시
+----------------------------------------------------------
+3/14 Testing: TunerTest.testSeekCh10timesAfterSetCH
+3/14 Test: TunerTest.testSeekCh10timesAfterSetCH
+Command: "C:/DEV/TDD_TV_11/build/TunerTest.exe" "--gtest_filter=TunerTest.testSeekCh10timesAfterSetCH" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_11/build
+"TunerTest.testSeekCh10timesAfterSetCH" start time: May 15 14:03 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\TDD_TV_11\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TunerTest.testSeekCh10timesAfterSetCH
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TunerTest
+[ RUN      ] TunerTest.testSeekCh10timesAfterSetCH
+[       OK ] TunerTest.testSeekCh10timesAfterSetCH (0 ms)
+[----------] 1 test from TunerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TunerTest.testSeekCh10timesAfterSetCH" end time: May 15 14:03 대한민국 표준시
+"TunerTest.testSeekCh10timesAfterSetCH" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 15 14:03 대한민국 표준시

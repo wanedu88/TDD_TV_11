@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260515-0502-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.3.2"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-60981LT"
+	OSRelease="10.0.19045"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="8"
+	ModelName="AMD Ryzen 5 3400G with Radeon Vega Graphics"
+	ProcessorCacheSize="96"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="1856"
+	TotalPhysicalMemory="12221"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3700.000000"
+	>
+	<Testing>
+		<StartDateTime>May 15 14:03 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778821388</StartTestTime>
+		<TestList>
+			<Test>./TunerTest.testSeekCh10timesAfterSetCH</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>TunerTest.testSeekCh10timesAfterSetCH</Name>
+			<Path>.</Path>
+			<FullName>./TunerTest.testSeekCh10timesAfterSetCH</FullName>
+			<FullCommandLine>C:\DEV\TDD_TV_11\build\TunerTest.exe "--gtest_filter=TunerTest.testSeekCh10timesAfterSetCH" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778821388.153932</StartTestTime>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.009982</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\DEV\TDD_TV_11\build\TunerTest.exe "--gtest_filter=TunerTest.testSeekCh10timesAfterSetCH" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkMFugzAMhu95Ch/LAVSulXqooOqkSd0ErBeCEAXDooWkSsz2+iNQoXbSJHyy489/fjsZlBKqg74SauNBa3QP0Y7HxwvP4rjMLmUY8usgZMPLBm+Wd1p3Egkt+dbUDyWfSpeVTiyoa3bWhDs4TQhkYwdaIQkN7CEbFBr3FLiJFPEr+gy3JHq0h3ZEUqToheX7JQpI7lZDoEnKWb3ndhCEAcv9JQo4SX2t5NxH9S2MVj2qkUXyh9sf+FFzscZySD7OMEWx1vGMw9vr2hHYbKG33go/MwmkqZIeW7ctYWX8Rv+o51v+d0MwlQqe/xk3ej+k6TF2R5jZgP0CfkS34g==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 15 14:03 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778821388</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
