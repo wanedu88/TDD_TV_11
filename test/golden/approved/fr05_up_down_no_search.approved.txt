@@ -1,0 +1,17 @@
+# fixture=FakeTuner{1,4,12,56} scenario=fr05_up_down_no_search
+> setCH(6)
+CH=6
+> pressChannelUp()
+CH=7
+> pressChannelDown()
+CH=6
+> pressChannelDown()
+CH=5
+> setCH(99)
+CH=99
+> pressChannelUp()
+CH=0
+> setCH(0)
+CH=0
+> pressChannelDown()
+CH=99

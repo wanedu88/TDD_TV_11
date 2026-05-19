@@ -1,0 +1,9 @@
+# fixture=FakeTuner{1,4,12,56} scenario=fr01_three_digits_456_other
+> pressNumber(4)
+CH=0
+> pressNumber(5)
+CH=45
+> pressNumber(6)
+CH=45
+> pressOther()
+CH=45

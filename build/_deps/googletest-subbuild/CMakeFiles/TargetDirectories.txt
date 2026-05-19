@@ -1,3 +1,0 @@
-C:/DEV/TDD_TV_11/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-C:/DEV/TDD_TV_11/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-C:/DEV/TDD_TV_11/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,26 @@
+# fixture=FakeTuner{1,4,12,56} scenario=fr02_favorite_toggle_scenario
+> setCH(12)
+CH=12
+> pressFavorite()
+CH=12
+favorites=[12]
+> setCH(8)
+CH=8
+> pressFavorite()
+CH=8
+favorites=[8,12]
+> setCH(37)
+CH=37
+> pressFavorite()
+CH=37
+favorites=[8,12,37]
+> setCH(8)
+CH=8
+> pressFavorite()
+CH=8
+favorites=[12,37]
+> setCH(6)
+CH=6
+> pressFavorite()
+CH=6
+favorites=[6,12,37]
