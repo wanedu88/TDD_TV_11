@@ -23,6 +23,7 @@
 | 테스트 계획 | `Report/04_Test_Plan_Report.md`, `docs/test_plan.md` | P0/P1·커버리지 |
 | Golden 회귀 | `Report/07_Golden_Master_Regression_Test_Report.md` | trace baseline |
 | 리팩토링 계획 | `Report/08_TVChannelController_Refactoring_Plan_Report.md` | Green 유지 개선 |
+| QA 최종 종합 | `Report/10_QA_Final_Report.md`, `docs/qa_final_report.md` | 9단계 평가·커버리지·Best Practice |
 | 개발 요구사항 | `TDD_TV_Requirements.txt` | FR-01~06, DoD |
 
 ---
