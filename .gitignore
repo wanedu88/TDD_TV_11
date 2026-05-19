@@ -1,0 +1,4 @@
+build/
+build-cov/
+cmake_test_discovery_*.json
+test/golden/received/

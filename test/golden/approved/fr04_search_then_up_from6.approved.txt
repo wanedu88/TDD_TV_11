@@ -1,0 +1,8 @@
+# fixture=FakeTuner{1,4,12,56} scenario=fr04_search_then_up_from6
+> pressChannelSearch()
+CH=1
+searched=[1,4,12,56]
+> setCH(6)
+CH=6
+> pressChannelUp()
+CH=12

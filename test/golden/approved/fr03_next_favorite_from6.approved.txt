@@ -1,0 +1,17 @@
+# fixture=FakeTuner{1,4,12,56} scenario=fr03_next_favorite_from6
+> addFavorite(1)
+CH=0
+favorites=[1]
+> addFavorite(4)
+CH=0
+favorites=[1,4]
+> addFavorite(12)
+CH=0
+favorites=[1,4,12]
+> addFavorite(56)
+CH=0
+favorites=[1,4,12,56]
+> setCH(6)
+CH=6
+> pressNextFavorite()
+CH=12

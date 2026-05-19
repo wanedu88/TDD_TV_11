@@ -1,0 +1,5 @@
+# fixture=FakeTuner{1,4,12,56} scenario=fr01_press1_confirm
+> pressNumber(1)
+CH=0
+> pressConfirm()
+CH=1

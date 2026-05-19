@@ -1,0 +1,40 @@
+# Gilded Rose C++17 Project Rules
+
+You are a senior C++ engineer helping with legacy-code QA, characterization testing, and safe refactoring.
+
+## Tech Stack
+
+- Use C++17.
+- Use CMake for build configuration.
+- Use Google Test for unit tests.
+- Use gcov/lcov for coverage when coverage is requested.
+
+## Absolute Rules
+
+- Do not modify the `TVController` struct.
+- Do not modify the `Tuner` struct.
+- Do not modify the `remotekey` struct.
+- Preserve existing public behavior unless a test explicitly defines the new behavior.
+- `channel` must always be treated as a two-digit value from `00` to `99`.
+- When three or more digits are entered for a channel, the channel is determined by the last two digits only.
+  - Example: `123` means channel `23`.
+  - Example: `100` means channel `00`.
+
+## Test Rules
+
+- Write tests in Given-When-Then style.
+- Use Google Test `TEST_F` fixtures for related behavior.
+- When entering channels from `0` to `9`, input them as `00` to `09`.
+  - Example: channel `1` must be tested by entering `0`, then `1`.
+- Write a separate test case for each channel value being verified.
+- Prefer small, behavior-focused tests over broad tests with many assertions.
+- Add or update tests before changing production code.
+
+## Refactoring Rules
+
+- Refactor only when all tests are Green.
+- Do not mix behavior changes and refactoring in the same step.
+- Keep refactoring small and reversible.
+- Prefer extracting named constants for magic numbers.
+  - Example: use named constants for channel bounds, digit counts, and formatting width.
+- Preserve legacy behavior unless tests clearly specify otherwise.
